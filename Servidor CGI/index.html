@@ -1,0 +1,37 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">
+    <title> Início </title>
+      <script language = "javascript">
+        
+        function change(link)
+        {
+          window.location.href=link;
+        }
+
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Manrope" rel="stylesheet">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    
+    </head>
+  
+  <body>
+
+    <h1> Conversor de Medidas </h1>
+    <p> Para qual conversor de medidas você deseja ser redirecionado? </p>
+			
+      <div class = "center">
+        <select name = "options" onchange="change(value)">
+			
+      	  <option value = "index.html"> Selecione </option>
+				  <option value = "form_tempo.html"> Conversor de Tempo </option>
+				  <option value = "form_comprimento.html"> Conversor de Comprimento </option>
+				  <option value = "form_massa.html"> Conversor de Massa </option>
+				  <option value = "form_temperatura.html"> Conversor de Temperatura </option> 
+        </select></br></br>
+      </div>
+
+  </body>
+</html>
