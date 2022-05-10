@@ -1,0 +1,51 @@
+body
+{background-color: #20202C}
+
+.center
+{border: 5px solid #FFFF00;
+text-align: center;
+border: 0px;}
+
+h1
+{color: #FFFFFF;
+font-weight: bold;
+text-align: center;
+border: 0px;
+font-family: Manrope;}
+     
+label
+{color: #8A8FA8;
+text-align: center;
+font-family: Manrope;}
+     
+input[type=text]
+{width: 300px;
+height: 30px;
+background-color: #343447;
+border-radius: 10px;
+font-family: Manrope;}
+     
+input
+{color: #FFFFFF;}
+textarea:focus, input:focus 
+{color: #FFFFFF;}
+
+p
+{color:#8A8FA8;
+text-align:center;
+font-family: Manrope;}
+
+input:hover, select:hover, textarea:hover, button:hover{border: 2px solid #7959F4;}
+
+.button
+{background-color: #7959F4;
+border: none;
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;}
