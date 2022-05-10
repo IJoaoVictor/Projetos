@@ -38,13 +38,13 @@ if ($stmt_prepared_okay) {
     $email = mysqli_real_escape_string($conn, $_REQUEST['email']);
     $telefone = mysqli_real_escape_string($conn, $_REQUEST['telefone']);
     $mensagem = mysqli_real_escape_string($conn, $_REQUEST['mensagem']);
-  	$tipobolo = mysqli_real_escape_string($conn, $_REQUEST['tipobolo']);
+    $tipobolo = mysqli_real_escape_string($conn, $_REQUEST['tipobolo']);
 
     $stmt_executed_okay = mysqli_stmt_execute($stmt);
 
     if ($stmt_executed_okay) {
        echo '<div class = center>';	
-	   echo '<label>Seu pedido foi gravado em nossa base. Em breve entraremos em contato. Obrigado! </label><br>';
+       echo '<label>Seu pedido foi gravado em nossa base. Em breve entraremos em contato. Obrigado! </label><br>';
        echo '</div>';
     } else {
         echo '<div class = center>';	
@@ -62,13 +62,13 @@ $sql = "SELECT * FROM infobolo WHERE id = '$last_id'";
 $result = mysqli_query($conn, $sql);
 
 while ($row = mysqli_fetch_assoc($result)) {
-	$id=$row["id"];
+    $id=$row["id"];
     echo '<div class="center">';
-  	echo '<br>' . $msg . '<br>';
+    echo '<br>' . $msg . '<br>';
     echo '<label> Seu nome: '.$row["nome"].'</label><br>';
     echo '<label> Seu elefone: '.$row["telefone"].'</label><br>';
     echo '<label> Seu e-mail: '.$row["email"].'</label><br>';
-  	echo '<label> Bolo escolhido: '.$row["tipobolo"].'</label><br>';
+    echo '<label> Bolo escolhido: '.$row["tipobolo"].'</label><br>';
     echo '<label> Seu recado: '.$row["mensagem"].'</label><br>';
     echo '</div>';
 }
