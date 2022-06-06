@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d1, .d2, .d3{
+    display: inline-block;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.center_images{
+    border: 5px solid #FFFF00;
+    border: 0px;
+    text-align: center;
+}
+
+.center_button{
+    border: 5px solid #FFFF00;
+    border: 0px;
+    text-align: center;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: #FFAEBC;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -500px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #FFAEBC;
+
+}
+
+.extras img{
+    width: 350px;
+}
+.social-media{
+    position: absolute;
+    right: 500px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 25px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    margin: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+button{
+    border: 0;
+    background-color: #FFAEBC;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.card {
+    margin: 50px;
+    text-align: center;
+}
+
+
+.input-dados{
+    background: none;
+    border: nome;
+    outline: none;
+    color: #255;
+    font-size: 15px;
+    width: 50%;
+    letter-spacing: 2px;
+}
+
+.label-dados{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+

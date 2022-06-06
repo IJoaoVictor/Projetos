@@ -1,0 +1,6 @@
+Processo de confeccção de pedido
+index.html -> escolher_bolo.php -> pedido.php -> insert.php
+
+Processo para exibir os pedidos
+
+selectpedido.php -> interface.php -> updatepedido.php -> update.php (ou delete.php caso queira apagar o pedido)
