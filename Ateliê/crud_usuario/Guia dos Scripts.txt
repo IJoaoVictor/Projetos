@@ -1,0 +1,7 @@
+Processo de inserção de pedido no catalogo
+O usuário escolhe a categoria de itens que deseja, escolhe um item do catalogo, insere suas informações e confirma o pedido, onde é enviado os dados do pedido para a tabela infobolo
+index.html -> escholher_categoria -> catalogo.php -> pedido_info.php -> upload_pedido.php
+
+Processo para atualizar o pedido
+O usuário busca pelo ID do seu pedido, confere o status do seu pedido e insere suas novas informações caso queira 
+index.html -> search_pedido.php -> update_pedido_info.php -> update_pedido.php (ou delete.php caso o usuário queira apagar o pedido)
